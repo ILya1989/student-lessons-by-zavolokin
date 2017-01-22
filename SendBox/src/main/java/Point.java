@@ -15,9 +15,8 @@ public class Point {
 
             double c = Math.sqrt(x1*x1 + x2*x2);
             System.out.println(c);
-            double distans=(c);
-            System.out.println(Math.round((c)));
-            System.out.println("Растояние равно="+c);
+            double distans=(Math.round((c)));
+            System.out.println("Растояние равно="+ distans);
 
 
 
